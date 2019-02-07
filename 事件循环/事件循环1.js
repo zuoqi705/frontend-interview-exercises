@@ -20,4 +20,4 @@ new Promise(resolve => {
 })
 
 console.log('script start');
-// console.log('script end');
+console.log('script end');
