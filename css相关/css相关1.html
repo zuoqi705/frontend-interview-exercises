@@ -1,0 +1,31 @@
+<!-- 
+始终需要满足以下条件：
+A元素垂直居中于屏幕中央；
+A元素距离屏幕左右边距各10px；
+A元素里面的文字"A"的font-size:20px；水平垂直居中；
+A元素的高度始终是A元素宽度的50%； 
+-->
+
+<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.A {
+		background: #2575ee;
+		position: absolute;
+		margin: 0 10px;
+		color: white;
+		top: 50%;
+		transform: translate(0, -50%);
+		width: calc(100vw - 20px);
+		height: calc(50vw - 10px);
+		font-size: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+</style>
+
+
+<div class="A">A</div>

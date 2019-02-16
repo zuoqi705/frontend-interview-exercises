@@ -9,7 +9,3 @@ console.log(foo); //false
 let a = {name:1}, bar = '20' + a;
 console.log(bar); // '20[object Object]'
 
-
-//第3题
-
-
