@@ -4,8 +4,8 @@ async1 start
 async2
 promise1
 script end
-promise2
 async1 end
+promise2
 setTimeout
 */
 async function async1() {
@@ -41,8 +41,8 @@ promise1
 promise3
 script end
 promise2
-promise4
 async1 end
+promise4
 setTimeout
 */
 async function async1() {
@@ -84,9 +84,9 @@ a2
 promise2
 script end
 promise1
+a1 end
 promise2.then
 promise3
-a1 end
 setTimeout
 */
 async function a1 () {
